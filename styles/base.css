@@ -15,6 +15,24 @@
 .slidev-layout.default h1::before, .slidev-layout[layout="default"] h1::before {background: var(--slidev-theme-accents-blue);}
 .slidev-layout.default h2::before, .slidev-layout[layout="default"] h2::before {background: var(--slidev-theme-accents-yellow);}
 
+/* two-cols-header spacing between columns */
+.slidev-layout.two-cols-header {column-gap: 50px; padding-bottom: 4rem;}
+.col-header {text-align: center;}
+
+h1 {
+    background: var(--slidev-theme-accents-blue);
+    transform: rotate(-1deg);
+    color: var(--slidev-theme-default-headingColor);
+    margin-left: -0.25em;
+    margin-top: -0.25em;
+    box-shadow: var(--slidev-theme-header-shadow);
+    display: inline-block;
+    padding: 0.25em;
+    position: relative;
+    margin-bottom: 1em;
+    z-index: 1;
+}
+
 h2 {
     background: var(--slidev-theme-accents-yellow);
     transform: rotate(-1deg);

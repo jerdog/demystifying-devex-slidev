@@ -177,6 +177,7 @@ layout: two-cols-header
 
 ---
 layout: intro
+transition: fade | fade
 ---
 
 <div class="multiCol">
@@ -867,37 +868,138 @@ Creating a Culture of Support: Initiatives like wellness programs, no-meeting da
 
 ---
 
+# Enhancing the Developer Experience
+
+<v-clicks>
+
+1. Prioritize DevEx at every level
+
+2. Streamline processes and reduce friction
+
+3. Build a supportive community
+
+4. Measure your success... and iterate
+
+</v-clicks>
 
 <!--
+Prioritizing DevEx at Every Level
+
+1. Prioritize DevEx at every level
+
+2. Streamline processes and reduce friction
+
+3. Build a supportive community
+
+4. Measure your success... and iterate
 
 -->
 
 ---
+layout: image-left
+image: /images/slides/team-priority.jpg
+backgroundSize: contain
+class: my-cool-content-on-the-right
+---
 
+## Prioritize DevEx at every level
+
+**DevEx initiatives should be modeled from Leadership _FIRST_**{style="color: red; font-size: 1.25em; font-weight: bolder;"}
+
+***THEN...***
+
+<v-clicks>
+
+- Appoint **DevEx Champions** in every team
+
+- Establish **feedback loops**
+
+</v-clicks>
 
 <!--
+Developer Experience (DevEx) should be a shared responsibility across teams. Encourage teams to prioritize DevEx by embedding it in the organization's culture. And it MUST be modeled from the top.
 
+Strategies:
+- Appoint DevEx Champions in every team to gather feedback and drive improvements.
+- Establish feedback loops through regular surveys and direct input from developers.
 -->
 
 ---
+layout: image-left
+image: /images/slides/reducing-friction.jpg
+backgroundSize: contain
+class: my-cool-content-on-the-right
+---
 
+## Streamline processes and reduce friction
+
+<v-clicks>
+
+- Automate repetitive tasks
+
+- Implement self-service tools
+
+</v-clicks>
 
 <!--
+Explanation: Simplify workflows to eliminate bottlenecks that slow down development.
 
+Strategies:
+- Automate repetitive tasks such as testing, deployment, and code reviews.
+- Implement self-service tools for environment provisioning to reduce dependency on other teams.
 -->
 
 ---
+layout: image-left
+image: /images/slides/supportive-community.jpg
+backgroundSize: contain
+class: my-cool-content-on-the-right
+---
 
+## Build a supportive community
+
+<v-clicks>
+
+- Foster internal developer communities
+
+- Encourage mentorship programs
+
+</v-clicks>
 
 <!--
+A strong community provides developers with a sense of belonging and a platform for shared learning.
 
+Strategies:
+- Foster internal developer communities through forums, Slack channels, and knowledge-sharing sessions.
+- Encourage mentorship programs to help new developers grow and learn from experienced colleagues.
 -->
 
 ---
+layout: image-left
+image: /images/slides/measure-success.jpg
+backgroundSize: contain
+class: my-cool-content-on-the-right
+---
 
+## Measure your success... and iterate
+
+<v-clicks>
+
+- Get a baseline of where you are
+
+- Track qualitative feedback
+
+- Analyze quantitative metrics
+
+</v-clicks>
 
 <!--
+Use metrics to continuously monitor and improve the developer experience.
 
+Strategies:
+- Get a baseline of where you are by conducting surveys and interviews.
+- Track qualitative feedback through surveys and retrospectives.
+- Analyze quantitative metrics such as deployment frequency, time-to-recover, and cycle time.
 -->
 
 ---

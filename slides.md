@@ -8,13 +8,13 @@ info: |
 
   ## Abstract
   A key factor in shaping the productivity and innovation of software developers is what has come to be called “Developer Experience.” We'll begin with an introduction to DevEx, exploring its definition and significance in the tech world. We'll traverse the history of software development, highlighting how DevEx has evolved with technology. Key components, such as ergonomic tools, efficient workflows, and community support, are dissected to showcase their impact on a developer's day-to-day life. We'll look at successful and problematic DevEx scenarios, offering lessons and strategies for improvement. Then, we'll delve into practical tips for enhancing DevEx, discussing better practices and common pitfalls. Looking forward, we will explore emerging trends and future predictions, hopefully preparing us for the evolving landscape of software development. This talk is an essential journey through the world of DevEx, ideal for developers, team leaders, and tech enthusiasts keen on optimizing their development environments for better outcomes.
-conference: ""
+conference: "Connect.Tech 2024"
 socialimg: '../images/bluesky-jerdog-white.png'
 favicon: 'https://raw.githubusercontent.com/jerdog/jmeiss-me-website/main/assets/images/fav.png'
 keywords: devex,developer experience
 presenter: true
 download: true
-exportFilename: demystifying-devex-slidevExport
+exportFilename: connectTech2024-demystifying-devex-slides
 export:
   format: pdf
   timeout: 30000

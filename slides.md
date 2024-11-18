@@ -64,7 +64,142 @@ transition: slide-left
 <!--
 We've all had that experience using a tool or service that was a disaster. It could be the worst deployment process you've ever seen, or the most painful codebase you've ever had to work with, or documentation that's so confusing it makes your head spin. Or maybe a combination of them… Who here knows what I’m talking about? 
 
-We’ve all seen examples of epicly bad websites, right? 
+NordicAPIs gathered some examples a few years ago…
+-->
+
+---
+layout: image-right
+image: /images/slides/new-feature-fail.gif
+backgroundSize: contain
+class: my-cool-content-on-the-left
+---
+
+# DevEx as Disaster
+## Common examples
+
+<v-click>
+
+- Poorly documented features (or bugs)
+
+</v-click>
+
+<!--
+We’ve all had those moments where we encounter changes to an application that either introduce new features, or in some cases, new bugs, that aren’t adequately documented or even mentioned as existing - even if the bug won’t be fixed for awhile and there are workarounds. 
+
+[click]- Poorly documented features (or bugs)
+-->
+
+---
+layout: image-right
+image: /images/slides/api-fail.png
+backgroundSize: contain
+class: my-cool-content-on-the-left
+---
+
+# DevEx as Disaster
+## Common examples
+
+- Poorly documented features (or bugs)
+
+<v-click>
+
+- Missing OpenAPI spec (or event APIs)   
+
+
+</v-click>
+
+<!--
+We’ve all worked with those companies that say they have a developer platform, but are missing documentation for their APIs, or even worse, no APIs at all. 
+
+[click]- Missing OpenAPI spec (or event APIs)
+-->
+
+---
+layout: image-right
+image: /images/slides/missing-docs-fail.png
+backgroundSize: contain
+class: my-cool-content-on-the-left
+---
+
+# DevEx as Disaster
+## Common examples
+
+- Poorly documented features (or bugs)
+
+- Missing OpenAPI spec (or event APIs)
+
+<v-click>
+
+- Downloading documentation… as a PDF, or access-gated
+
+</v-click>
+
+<!--
+Having to hunt all over for documentation, and it’s not been written, OR, to find it, and realize you have to download it as a PDF, or that it’s gated by a password. For a public tool.
+
+[click]- Downloading documentation… as a PDF, or access-gated
+-->
+
+---
+layout: image-right
+image: /images/slides/missing-examples-fail.png
+backgroundSize: contain
+class: my-cool-content-on-the-left
+---
+
+# DevEx as Disaster
+## Common examples
+
+- Poorly documented features (or bugs)
+
+- Missing OpenAPI spec (or event APIs)
+
+- Downloading documentation… as a PDF, or access-gated
+
+<v-click>
+
+- Missing examples… of _anything_
+
+</v-click>
+
+<!--
+There’s the examples of different departments having different ideas of what has been built, without any examples of how to actually use it or put it together. Accessing a development tool shouldn’t be like putting together an IKEA piece of furniture.
+
+[click]- Missing examples… of _anything_
+-->
+
+---
+layout: image-right
+image: /images/slides/ramiro-tweet.png
+backgroundSize: contain
+class: my-cool-content-on-the-left
+---
+
+# DevEx as Disaster
+## Common examples
+
+- Poorly documented features (or bugs)
+
+- Missing OpenAPI spec (or event APIs)
+
+- Downloading documentation… as a PDF, or access-gated
+
+- Missing examples… of _anything_
+
+<v-click>
+
+- “CI as Magic 8-Ball”
+
+</v-click>
+
+<!--
+And then there’s Ramiro’s story on a DevEx disaster - 
+
+Long time ago, in a galaxy far away, I worked at a team were our CI environment was so different from local or production, that the only realistic option way to validate a change was in prod. So we would commit the change, rerun CI jobs until they were green, deploy to prod, and then monitor the logs for about 1 hour. If no major errors were logged after that you were good to go
+
+I call this one: 
+
+[click]- “CI as Magic 8-Ball”
 -->
 
 ---
@@ -584,16 +719,16 @@ DevOps emphasizes collaboration, automation, and continuous integration and deli
 
 <v-clicks>
 
-- Manual, error-prone deployments
-
 - Siloed teams with minimal collaboration
+
+- Manual, error-prone deployments
 
 - Lengthy software development cycles
 
 </v-clicks>
 
 <!--
-Discuss the inefficiencies of pre-DevOps practices. Explain how the traditional development process suffered from long deployment times, manual handovers, and frequent miscommunications between development and operations teams.
+Before DevOps, software development was a slow and disjointed process. Developers would write code and then ‘toss it over the wall’ to operations, who were responsible for deploying it. The lack of collaboration and automation meant a process fraught with inefficiency and frustration for everyone involved. This handoff often led to miscommunications, as each team worked in silos with little understanding of the other’s challenges. [click]Deployments were manual, time-consuming, and riddled with errors, resulting in long lead times. [click]A single change could take weeks to go live, and when issues arose, the blame game between teams would delay resolutions even further.
 -->
 
 ---
@@ -602,23 +737,21 @@ Discuss the inefficiencies of pre-DevOps practices. Explain how the traditional 
 
 <v-clicks>
 
-- Automation
-
 - Collaboration
+
+- Automation
 
 - Continuous Integration
 
 </v-clicks>
 
 <!--
-Explain that DevOps was born out of a need for faster and more reliable software delivery. Highlight how the principles of DevOps foster collaboration and introduce automation as a core part of the software lifecycle.
+DevOps emerged as a response to the growing demand for faster and more reliable software delivery. [click]DevOps bridges the gap between development and operations, fostering collaboration through shared responsibility and open communication. [click]By integrating automation into every stage—building, testing, and deployment—DevOps ensures consistent, repeatable processes. [click]This shift not only accelerates delivery but also improves reliability, enabling teams to deploy with confidence and adapt quickly to changing business needs.
 -->
 
 ---
 
 ## The Role of Automation in DevOps
-
-<v-clicks>
 
 - Jenkins
 
@@ -626,10 +759,21 @@ Explain that DevOps was born out of a need for faster and more reliable software
 
 - Kubernetes
 
-</v-clicks>
+<!--
+I don't want to beat a dead horse, but automation is the backbone of DevOps, transforming how software is built, tested, and deployed. Automated pipelines streamline repetitive tasks, enabling rapid iterations and reducing the risk of human error. Developers can now focus on writing code, knowing that builds, tests, and deployments are handled consistently and efficiently. This not only speeds up the feedback loop but also ensures higher quality releases, allowing teams to innovate faster and respond to changes with agility.-->
+
+---
+layout: two-cols
+---
+
+![DALL-E](/images/slides/dallE-evolution-ides.jpg)
+
+::right::
+
+![gemini](/images/slides/gemini-evolution-ides.jpg)
 
 <!--
-Dive deeper into the significance of automation in DevOps. Discuss how automated build and deployment processes have revolutionized the developer workflow, allowing for rapid iterations and fewer errors.
+"Create a pixel art illustration showing the evolution from text editors to cloud-based IDEs, emphasizing the progression in development environments in the style of the classic image which showed human evolution from ape to man."
 -->
 
 ---
@@ -640,27 +784,31 @@ Dive deeper into the significance of automation in DevOps. Discuss how automated
 
 - Efficiency gains through reduced friction of deployments
 
-- Shift from just code quality to developer well-being and satisfaction
-
-- Reduced cognitive load
+- Reduced cognitive load and shift to developer well-being and satisfaction
 
 - Encouragement of experiementation and fast feedback loops
 
 </v-clicks>
 
 <!--
-Explain that as DevOps improved workflows and reduced deployment pain points, it also opened the door for a more developer-focused approach. Discuss how the efficiency gained from DevOps practices enabled companies to focus on improving the overall experience of developers, not just the software being built.
+[click]As DevOps streamlined workflows and eliminated deployment bottlenecks, it revealed a new opportunity: improving the developer’s day-to-day experience. With automation and collaboration reducing pain points, [click]companies could shift their focus beyond just delivering software quickly. They began investing in tools, processes, and cultures that enhance developer satisfaction and productivity. [click]This evolution paved the way for Developer Experience (DevEx), where the goal is not only great software but also empowered, engaged developers who thrive in their work.
 -->
 
 ---
-
-## DevEx is a natural evolution of DevOps
-
+layout: image
+image: /images/slides/natural_evolution.jpg
+backgroundSize: contain
+---
 
 <!--
-Key Point: “DevOps laid the groundwork, but DevEx takes it further by prioritizing developer satisfaction and ease of use.” Make the connection clear between DevOps and DevEx. Highlight how DevEx is not a replacement for DevOps but an extension that emphasizes the developer’s needs and experience.
+DevEx is a natural evolution of DevOps - “DevOps laid the groundwork, but DevEx takes it further by prioritizing developer satisfaction and ease of use.” Highlight how DevEx is not a replacement for DevOps but an extension that emphasizes the developer’s needs and experience.
 -->
 
+---
+layout: image-left
+image: /images/slides/dev-platforms-and-tooling.jpg
+backgroundSize: contain
+class: my-cool-content-on-the-right
 ---
 
 # The Rise of DevOps...
@@ -670,28 +818,35 @@ Key Point: “DevOps laid the groundwork, but DevEx takes it further by prioriti
 ### Developer Platforms and Internal Tooling
 
 - Developer Portals
-
 - Self-serve infrastructure
-
 - API-Driven Infrastructure
 
-
 <!--
-Callout: “Companies are investing in platforms that abstract complexity.” Talk about the emergence of developer platforms designed to make accessing resources easy and intuitive. Explain how these platforms have become a key part of modern DevEx, enabling developers to deploy, test, and monitor their code efficiently.
+Modern developer platforms are transforming the way developers work by abstracting complex processes and providing intuitive interfaces. These platforms simplify resource provisioning, deployment, and monitoring, enabling developers to focus on writing code rather than managing infrastructure. By reducing cognitive load and friction, these tools have become a cornerstone of Developer Experience, empowering teams to work more efficiently and deliver high-quality software faster.
 -->
 
+---
+layout: image-left
+image: /images/slides/dev-platforms-and-tooling.jpg
+backgroundSize: contain
+class: my-cool-content-on-the-right
 ---
 
 ## The Birth of Modern DevEx
 
 ### Cultural Shift towards Collaboration and Experimentation
 
+<v-clicks>
+
 - Cross-functional teams
 
-- Encouragement of feedbaack and continuous learning
+- Encouragement of feedback and continuous learning
+
+</v-clicks>
 
 <!--
-Main Message: “A culture of collaboration is the foundation of great DevEx.” Discuss the cultural changes inspired by DevOps, such as the focus on collaboration and shared responsibility. Highlight how these cultural shifts have directly influenced the practices that now define modern DevEx.-->
+The cultural shifts at the core of DevOps by emphasizing collaboration and shared responsibility, has been seen in a focus on [click]openness and teamwork in the modern implementations of Developer Experience, where developers are empowered to work seamlessly across functions. [click]By fostering trust, encouraging knowledge sharing, and breaking down silos, organizations create environments where developers thrive, driving both innovation and efficiency.
+-->
 
 ---
 layout: section
@@ -740,11 +895,13 @@ layout: two-cols-header
 <!--
 Importance of Onboarding: The first few days and weeks can make or break a developer’s perception of an organization’s DevEx.
 
+[click]
 Effective Strategies:
 - Comprehensive Onboarding Kits: Include environment setup guides, example projects, and walkthroughs.
 - Mentorship Programs: Pair new hires with experienced developers to accelerate acclimatization.
 
-Measurement: Use metrics like “Time to First Commit” or “Time to First Merge” to gauge onboarding success.
+[click]
+Measurement: Use metrics like “Time to First Commit” or “Time to First Merge” to gauge onboarding success. But first figure out your baseline.
 -->
 
 ---
@@ -753,18 +910,31 @@ Measurement: Use metrics like “Time to First Commit” or “Time to First Mer
 
 ## Documentation
 
+<v-clicks>
+
 - Living documentation
 
 - Developer portals
 
+</v-clicks>
+
+<v-click>
+
+<div class="grid grid-cols-2" style="padding-top: 1rem; padding-bottom: 1rem; justify-content: center;">
+  <logos-twilio-icon class="text-10" />
+  <logos-stripe class="text-10" />
+</div>
+
+</v-click>
+
 <!--
 Impact on Day-to-Day Productivity: Poor documentation is a common source of frustration. Good documentation, on the other hand, empowers developers to be self-sufficient.
 
-Best Practices:
-- Living Documentation: Ensure documentation is regularly updated and easy to navigate.
-- Developer Portals: Create centralized knowledge hubs for internal and external developers.
+Good Practices:
+[click]- Living Documentation: Ensure documentation is regularly updated and easy to navigate.
+[click]- Developer Portals: Create centralized knowledge hubs for internal and external developers.
 
-Examples of Good Documentation: Companies like Stripe and Twilio are renowned for their clear and example-rich docs.
+[click]Examples of Good Documentation: Companies like Stripe and Twilio are renowned for their clear and example-rich docs.
 -->
 
 ---
@@ -773,20 +943,23 @@ Examples of Good Documentation: Companies like Stripe and Twilio are renowned fo
 
 ## Continuous Feedback
 
+<v-clicks>
+
 - Regular surveys
 
 - Feedback forums
 
 - Act on feedback
 
+</v-clicks>
+
 <!--
 Value of Continuous Feedback: Implementing effective feedback loops is essential for identifying pain points and iterating on DevEx.
 
 Feedback Mechanisms:
-- Regular Surveys: Quarterly satisfaction surveys to measure developer happiness.
-- Feedback Forums: Internal communities where developers can voice concerns and suggest improvements.
-
-Acting on Feedback: Showcase examples of companies with “You Said, We Did” initiatives that align priorities based on developer input.
+[click]- Regular Surveys: Quarterly satisfaction surveys to measure developer happiness.
+[click]- Feedback Forums: Internal communities where developers can voice concerns and suggest improvements.
+[click]- Acting on Feedback: Showcase examples of companies with “You Said, We Did” initiatives that align priorities based on developer input.
 -->
 
 ---
@@ -795,18 +968,32 @@ Acting on Feedback: Showcase examples of companies with “You Said, We Did” i
 
 ## CI/CD and Automation
 
+<v-clicks>
+
 - Automate everything
 
 - Fast feedback loops
+
+</v-clicks>
+
+<v-click>
+
+<div class="flex gap-2 items-center" style="font-size: 1.2rem; padding-top: 2rem; font-weight: 900; color: var(--slidev-theme-accents-yellow);">
+  <twemoji-warning class="text-10" />
+  Overcomplicated pipelines can lead to more problems than they solve
+  <twemoji-warning class="text-10" />
+</div>
+
+</v-click>
 
 <!--
 The Backbone of Modern Development: CI/CD pipelines and automation streamline development, reduce manual errors, and speed up delivery.
 
 Key Practices:
-- Automate Everything: From code linting to infrastructure testing, automation minimizes friction.
-- Fast Feedback Loops: Optimize pipelines to provide immediate feedback on changes.
+[click]- Automate Everything: From code linting to infrastructure testing, automation minimizes friction.
+[click]- Fast Feedback Loops: Optimize pipelines to provide immediate feedback on changes.
 
-Pitfalls: Discuss scenarios where overcomplicated pipelines lead to more problems than they solve.
+[click]Pitfalls: Discuss scenarios where overcomplicated pipelines lead to more problems than they solve.
 -->
 
 ---
@@ -815,15 +1002,44 @@ Pitfalls: Discuss scenarios where overcomplicated pipelines lead to more problem
 
 ## Infrastructure Orchestration
 
+<v-click>
+
 - Developer Self-Service
+
+  <div class="flex gap-2" style="padding-top: 1rem; padding-bottom: 1rem; justify-content: center;">
+    <logos-kubernetes class="text-8" />
+    <logos-terraform-icon class="text-8" />
+  </div>
+
+</v-click>
+
+<v-click>
 
 - Simplifying Deployment
 
-<!--
-Developer Self-Service: Infrastructure orchestration tools (like Kubernetes and Terraform) should be easy to use and developer-friendly.
+<div class="flex gap-2" style="padding-top: 1rem; padding-bottom: 1rem; justify-content: center;">
+  <logos-pulumi-icon class="text-8" />
+  <logos-serverless class="text-8" />
+</div>
 
-Simplifying Deployment: Tools like Pulumi and Serverless Framework enable developers to deploy without deep DevOps expertise.
-Challenges: Ensure the tools are well-documented and abstract away unnecessary complexity.
+</v-click>
+
+<v-click>
+
+<div class="flex gap-2 items-center" style="font-size: 1.2rem; padding-top: 2rem; font-weight: 900;">
+  <twemoji-double-exclamation-mark class="text-10" />
+  Ensure the tools are well-documented and abstract away unnecessary complexity
+  <twemoji-double-exclamation-mark class="text-10" />
+</div>
+
+</v-click>
+
+<!--
+[click]Developer Self-Service: Infrastructure orchestration tools [click](like Kubernetes and Terraform) should be easy to use and developer-friendly.
+
+[click]Simplifying Deployment: Tools like [click]Pulumi and Serverless Framework enable developers to deploy without deep DevOps expertise.
+
+[click]Challenges: Ensure the tools are well-documented and abstract away unnecessary complexity.
 -->
 
 ---
@@ -832,18 +1048,20 @@ Challenges: Ensure the tools are well-documented and abstract away unnecessary c
 
 ## Culture and Team Structure
 
+<v-clicks>
+
 - Cross-functional teams
 
 - Promote psychological safety
+
+</v-clicks>
 
 <!--
 Impact of Culture on DevEx: A supportive, feedback-oriented culture is essential for a thriving developer experience.
 
 Team Structure Matters:
-- Cross-Functional Teams: Aligning teams with clear ownership reduces friction and confusion.
-- Promoting Psychological Safety: Teams that feel safe to share concerns and experiment contribute to a stronger DevEx.
-
-Example of Successful Structures: Discuss Spotify’s Squad and Guild model as a case study for empowering developers.
+[click]- Cross-Functional Teams: Aligning teams with clear ownership reduces friction and confusion.
+[click]- Promoting Psychological Safety: Teams that feel safe to share concerns and experiment contribute to a stronger DevEx.
 -->
 
 ---
@@ -852,46 +1070,42 @@ Example of Successful Structures: Discuss Spotify’s Squad and Guild model as a
 
 ## Developer Well-Being
 
+<v-clicks>
+
 - Flexible schedules
 
 - Work-life boundaries
+
+</v-clicks>
+
+<v-click>
+
+<div class="flex gap-2 items-center" style="font-size: 1.2rem; padding-top: 2rem; font-weight: 900; color: pink;">
+  <twemoji-smiling-face-with-open-hands class="text-10" />
+  Initiatives like wellness programs, no-meeting days, and social activities can help.
+  <twemoji-smiling-face-with-open-hands class="text-10" />
+</div>
+
+</v-click>
 
 <!--
 Balancing Productivity and Well-Being: Burnout is a significant threat in high-paced development environments. A good DevEx considers developer mental health.
 
 Strategies for Well-Being:
-- Flexible Schedules: Encourage autonomy and flexible hours.
-- Work-Life Boundaries: Promote disconnecting from work to maintain a healthy balance.
+[click]- Flexible Schedules: Encourage autonomy and flexible hours.
+[click]- Work-Life Boundaries: Promote disconnecting from work to maintain a healthy balance.
 
-Creating a Culture of Support: Initiatives like wellness programs, no-meeting days, and social activities can help.
+[click]Creating a Culture of Support: Initiatives like wellness programs, no-meeting days, and social activities can help.
 -->
 
+---
+layout: section
 ---
 
 # Enhancing the Developer Experience
 
-<v-clicks>
-
-1. Prioritize DevEx at every level
-
-2. Streamline processes and reduce friction
-
-3. Build a supportive community
-
-4. Measure your success... and iterate
-
-</v-clicks>
 
 <!--
-Prioritizing DevEx at Every Level
-
-1. Prioritize DevEx at every level
-
-2. Streamline processes and reduce friction
-
-3. Build a supportive community
-
-4. Measure your success... and iterate
 
 -->
 
@@ -901,6 +1115,8 @@ image: /images/slides/team-priority.jpg
 backgroundSize: contain
 class: my-cool-content-on-the-right
 ---
+
+# Enhancing the Developer Experience
 
 ## Prioritize DevEx at every level
 
@@ -920,8 +1136,8 @@ class: my-cool-content-on-the-right
 Developer Experience (DevEx) should be a shared responsibility across teams. Encourage teams to prioritize DevEx by embedding it in the organization's culture. And it MUST be modeled from the top.
 
 Strategies:
-- Appoint DevEx Champions in every team to gather feedback and drive improvements.
-- Establish feedback loops through regular surveys and direct input from developers.
+[click]- Appoint DevEx Champions in every team to gather feedback and drive improvements.
+[click]- Establish feedback loops through regular surveys and direct input from developers.
 -->
 
 ---
@@ -930,6 +1146,8 @@ image: /images/slides/reducing-friction.jpg
 backgroundSize: contain
 class: my-cool-content-on-the-right
 ---
+
+# Enhancing the Developer Experience
 
 ## Streamline processes and reduce friction
 
@@ -945,8 +1163,8 @@ class: my-cool-content-on-the-right
 Explanation: Simplify workflows to eliminate bottlenecks that slow down development.
 
 Strategies:
-- Automate repetitive tasks such as testing, deployment, and code reviews.
-- Implement self-service tools for environment provisioning to reduce dependency on other teams.
+[click]- Automate repetitive tasks such as testing, deployment, and code reviews.
+[click]- Implement self-service tools for environment provisioning to reduce dependency on other teams.
 -->
 
 ---
@@ -955,6 +1173,8 @@ image: /images/slides/supportive-community.jpg
 backgroundSize: contain
 class: my-cool-content-on-the-right
 ---
+
+# Enhancing the Developer Experience
 
 ## Build a supportive community
 
@@ -970,8 +1190,8 @@ class: my-cool-content-on-the-right
 A strong community provides developers with a sense of belonging and a platform for shared learning.
 
 Strategies:
-- Foster internal developer communities through forums, Slack channels, and knowledge-sharing sessions.
-- Encourage mentorship programs to help new developers grow and learn from experienced colleagues.
+[click]- Foster internal developer communities through forums, Slack channels, and knowledge-sharing sessions.
+[click]- Encourage mentorship programs to help new developers grow and learn from experienced colleagues.
 -->
 
 ---
@@ -980,6 +1200,8 @@ image: /images/slides/measure-success.jpg
 backgroundSize: contain
 class: my-cool-content-on-the-right
 ---
+
+# Enhancing the Developer Experience
 
 ## Measure your success... and iterate
 
@@ -997,9 +1219,9 @@ class: my-cool-content-on-the-right
 Use metrics to continuously monitor and improve the developer experience.
 
 Strategies:
-- Get a baseline of where you are by conducting surveys and interviews.
-- Track qualitative feedback through surveys and retrospectives.
-- Analyze quantitative metrics such as deployment frequency, time-to-recover, and cycle time.
+[click]- Get a baseline of where you are by conducting surveys and interviews.
+[click]- Track qualitative feedback through surveys and retrospectives.
+[click]- Analyze quantitative metrics such as deployment frequency, time-to-recover, and cycle time.
 -->
 
 ---

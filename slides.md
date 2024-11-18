@@ -1106,7 +1106,18 @@ layout: section
 
 
 <!--
+You may be in a position where you want to help drive the changes needed to improve the DevEx in your organization. But...
+-->
 
+---
+
+## DevEx reflects an organizational culture
+
+![devex-reflects-org-culture](/images/slides/bluesky-devex-culture-post.jpg){style="width: 70%; justify-self: center;"}
+
+
+<!-- 
+The level of investment that a company invests in DevEx can be a reflection of a company's values towards its employees, especially its developers. A strong focus on DevEx shows a commitment to employee well-being and efficiency. And prioritizing DevEx helps foster a culture of excellence and innovation. When developers are provided with the right tools, support, and environment, they are more likely to produce high-quality work and push the boundaries of what's possible.
 -->
 
 ---
@@ -1225,16 +1236,48 @@ Strategies:
 -->
 
 ---
+layout: statement
+---
+
+# DevEx is...
+
+>### "ruthlessly eliminating barriers (and blockers) that keep your practitioners from being successful"
 
 
-<!--
+<!-- 
+I'll leave you with this, that DevEx is ruthlessly eliminating barriers (and blockers) that keep your practitioners from being successful.
+-->
+
+---
+layout: two-cols
+---
+
+
+<div style="padding-top:200px; align-items: center; justify-content: center; margin: 0 auto; display: flex;">
+
+  <h2>Thank you!</h2>
+
+</div>
+
+::right::
+
+<p><img src="/images/bluesky-logo.svg" style="vertical-align: middle; display: inline; margin: 5px; max-height:50px; padding-right:10px">@jerdog.dev</p>
+<p><img src="/images/linkedin.png" style="vertical-align: middle; display: inline; margin: 5px; max-height:50px; padding-right:10px">/in/jeremymeiss</p>
+<p><img src="/images/devto.png" style="vertical-align: middle; display: inline; margin: 5px; max-height:50px; padding-right:10px">@jerdog</p>
+<p><img src="/images/mastodon.png" style="vertical-align: middle; display: inline; margin: 5px; max-height:50px; padding-right:10px">@jerdog@hachyderm.io</p>
+<p><img src="/images/twitter.png" style="vertical-align: middle; display: inline; margin: 5px; max-height:50px; padding-right:10px">@IAmJerdog</p>
+<p><img src="/images/www.png" style="vertical-align: middle; display: inline; margin: 5px; max-height:50px; padding-right:10px">jmeiss.me</p>
+
+
+<!-- 
 
 -->
 
 ---
+layout: end
+---
 
 
-<!--
+<!-- 
 
 -->
-

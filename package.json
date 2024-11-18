@@ -22,5 +22,8 @@
     "slidev-theme-the-unnamed": "^0.0.20",
     "unplugin-icons": "^0.20.1",
     "vue": "^3.4.38"
+  },
+  "devDependencies": {
+    "playwright-chromium": "^1.49.0"
   }
 }

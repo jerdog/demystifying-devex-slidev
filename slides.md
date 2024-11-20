@@ -786,7 +786,7 @@ layout: two-cols
 
 - Reduced cognitive load and shift to developer well-being and satisfaction
 
-- Encouragement of experiementation and fast feedback loops
+- Encouragement of experimentation and fast feedback loops
 
 </v-clicks>
 
@@ -970,9 +970,9 @@ Feedback Mechanisms:
 
 <v-clicks>
 
-- Automate everything
+- Automate everything possible  ([Paige Bailey automation post](https://medium.com/@webpaige/automating-away-the-boring-parts-of-my-job-with-gemini-1-5-pro-long-context-windows-6d5a1d9a6f38))
 
-- Fast feedback loops
+- Fast feedback loops ("Fail Fast")
 
 </v-clicks>
 

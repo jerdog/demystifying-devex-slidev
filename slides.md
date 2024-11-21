@@ -200,6 +200,7 @@ Long time ago, in a galaxy far away, I worked at a team were our CI environment 
 I call this one: 
 
 [click]- “CI as Magic 8-Ball”
+What about epicly bad websites that would put ebaumsworld to shame?
 -->
 
 ---
@@ -301,6 +302,18 @@ layout: two-cols-header
 
 </v-clicks>
 
+<!--
+## User Experience (UX)
+[click]- Focus: _prioritizing the end users usability and overall experience; aim to make software intuitive, easy to use, and enjoyable to interact with._
+[click]- Context: _involves user research, wireframes, testing product to optimize user satisfaction._
+[click]- _DevEx focuses on making tools, processes, and environments that devs use efficient and pleasant.
+
+## Developer Productivity
+[click]- Focus: _measured in terms of output, with an emphasis on efficiency and performance._
+[click]- Context: _metrics like "time to release", "number of pull requests", or "deployment frequency"._
+[click]- Differs: _they don't capture the full experience of developers, while DevEx encompasses efficiency, the satisfaction, well-being, and support structure of devs._
+-->
+
 ---
 
 # Distinguishing DevEx from other Concepts
@@ -309,6 +322,13 @@ layout: two-cols-header
 
 - [Focus:]{style="font-weight: 900; background: var(--slidev-theme-accents-red);"} _holistic view encompassing all aspects of the developer journey (usability, efficiency, satisfaction, etc.)_
 - [Unique:]{style="font-weight: 900; background: var(--slidev-theme-accents-red);"} _integrates elements of UX and productivity, but with a broader scope of psychological safety, community, and feedback loops._
+
+<!--
+## Developer Experience (DevEx)
+
+[click]- Focus: _holistic view encompassing all aspects of the developer journey (usability, efficiency, satisfaction, etc.)_
+[click]- Unique: _integrates elements of UX and productivity, but with a broader scope of psychological safety, community, and feedback loops._
+-->
 
 ---
 layout: intro
@@ -359,6 +379,10 @@ class: my-cool-content-on-the-right
 >"New ways of working such as globally distributed development or the integration of self-motivated external developers into software ecosystems will require a better and more comprehensive understanding of developers' feelings, perceptions, motivations and identification with their tasks in their respective project environments."
 
 _REF: F. Fagerholm and J. Münch, "[Developer experience: Concept and definition](https://ieeexplore.ieee.org/document/6225984?arnumber=6225984). 2012."_
+
+<!--
+The first is where it talked about these New ways of working where development was globally distributed and integrating self-motivated external developers into software ecosystems and would require a better and more comprehensive understanding of developers' feelings, perceptions, motivations and identification with their tasks in their respective project environments.
+-->
 
 ---
 layout: image-left
@@ -895,13 +919,11 @@ layout: two-cols-header
 <!--
 Importance of Onboarding: The first few days and weeks can make or break a developer’s perception of an organization’s DevEx.
 
-[click]
-Effective Strategies:
+[click]Effective Strategies:
 - Comprehensive Onboarding Kits: Include environment setup guides, example projects, and walkthroughs.
 - Mentorship Programs: Pair new hires with experienced developers to accelerate acclimatization.
 
-[click]
-Measurement: Use metrics like “Time to First Commit” or “Time to First Merge” to gauge onboarding success. But first figure out your baseline.
+[click]Measurement: Use metrics like “Time to First Commit” or “Time to First Merge” to gauge onboarding success. But first figure out your baseline.
 -->
 
 ---

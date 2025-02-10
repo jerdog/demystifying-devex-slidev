@@ -48,7 +48,7 @@ layout: cover
 transition: slide-left
 ---
 
-# Demystifying "DevEx"
+# Demystifying "Developer Experience"...
 
 ## and why it matters
 

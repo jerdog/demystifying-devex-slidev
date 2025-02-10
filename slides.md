@@ -4,17 +4,17 @@ theme: slidev-theme-the-unnamed
 title: "Demystifying 'DevEx', and why it matters"
 author: "Jeremy Meiss"
 info: |
-  ## Demystifying "DevEx", and why it matters 
+  ## Demystifying "DevEx", and why it matters
 
   ## Abstract
   A key factor in shaping the productivity and innovation of software developers is what has come to be called “Developer Experience.” We'll begin with an introduction to DevEx, exploring its definition and significance in the tech world. We'll traverse the history of software development, highlighting how DevEx has evolved with technology. Key components, such as ergonomic tools, efficient workflows, and community support, are dissected to showcase their impact on a developer's day-to-day life. We'll look at successful and problematic DevEx scenarios, offering lessons and strategies for improvement. Then, we'll delve into practical tips for enhancing DevEx, discussing better practices and common pitfalls. Looking forward, we will explore emerging trends and future predictions, hopefully preparing us for the evolving landscape of software development. This talk is an essential journey through the world of DevEx, ideal for developers, team leaders, and tech enthusiasts keen on optimizing their development environments for better outcomes.
-conference: ""
+conference: "Developer Week 2025"
 socialimg: '../images/bluesky-jerdog-white.png'
 favicon: 'https://raw.githubusercontent.com/jerdog/jmeiss-me-website/main/assets/images/fav.png'
 keywords: devex,developer experience
 presenter: true
 download: true
-exportFilename: demystifying-devex-slidevExport
+exportFilename: devweek2025-demystifying-devex-slides
 export:
   format: pdf
   timeout: 30000
@@ -62,7 +62,7 @@ transition: slide-left
 # DevEx as Disaster...
 
 <!--
-We've all had that experience using a tool or service that was a disaster. It could be the worst deployment process you've ever seen, or the most painful codebase you've ever had to work with, or documentation that's so confusing it makes your head spin. Or maybe a combination of them… Who here knows what I’m talking about? 
+We've all had that experience using a tool or service that was a disaster. It could be the worst deployment process you've ever seen, or the most painful codebase you've ever had to work with, or documentation that's so confusing it makes your head spin. Or maybe a combination of them… Who here knows what I’m talking about?
 
 NordicAPIs gathered some examples a few years ago…
 -->
@@ -84,7 +84,7 @@ class: my-cool-content-on-the-left
 </v-click>
 
 <!--
-We’ve all had those moments where we encounter changes to an application that either introduce new features, or in some cases, new bugs, that aren’t adequately documented or even mentioned as existing - even if the bug won’t be fixed for awhile and there are workarounds. 
+We’ve all had those moments where we encounter changes to an application that either introduce new features, or in some cases, new bugs, that aren’t adequately documented or even mentioned as existing - even if the bug won’t be fixed for awhile and there are workarounds.
 
 [click]- Poorly documented features (or bugs)
 -->
@@ -103,13 +103,13 @@ class: my-cool-content-on-the-left
 
 <v-click>
 
-- Missing OpenAPI spec (or event APIs)   
+- Missing OpenAPI spec (or event APIs)
 
 
 </v-click>
 
 <!--
-We’ve all worked with those companies that say they have a developer platform, but are missing documentation for their APIs, or even worse, no APIs at all. 
+We’ve all worked with those companies that say they have a developer platform, but are missing documentation for their APIs, or even worse, no APIs at all.
 
 [click]- Missing OpenAPI spec (or event APIs)
 -->
@@ -193,13 +193,14 @@ class: my-cool-content-on-the-left
 </v-click>
 
 <!--
-And then there’s Ramiro’s story on a DevEx disaster - 
+And then there’s Ramiro’s story on a DevEx disaster -
 
 Long time ago, in a galaxy far away, I worked at a team were our CI environment was so different from local or production, that the only realistic option way to validate a change was in prod. So we would commit the change, rerun CI jobs until they were green, deploy to prod, and then monitor the logs for about 1 hour. If no major errors were logged after that you were good to go
 
-I call this one: 
+I call this one:
 
 [click]- “CI as Magic 8-Ball”
+What about epicly bad websites that would put ebaumsworld to shame?
 -->
 
 ---
@@ -225,13 +226,13 @@ git push heroku main
 ![Heroku deploy button](/images/slides/heroku-deploy-button.png)
 
 <!--
-Heroku was long considered the gold standard for developer experience with a simple set of tools and a command-line interface that allowed developers to focus on building applications and delivering them to users. And that was it. Now of course, Heroku is still around (albeit not nearly as developer-centric as they formerly were, but that is changing), but it's not the only game in town. Anyone used Netlify, Vercel, etc.? 
+Heroku was long considered the gold standard for developer experience with a simple set of tools and a command-line interface that allowed developers to focus on building applications and delivering them to users. And that was it. Now of course, Heroku is still around (albeit not nearly as developer-centric as they formerly were, but that is changing), but it's not the only game in town. Anyone used Netlify, Vercel, etc.?
 -->
 
 ---
 
 # A working definition of DevEx
-  
+
 >_"...the **journey** of developers and practitioners as they learn and deploy technology, which if successful, focuses on eliminating obstacles that hinder them from achieving success in their endeavors."_
 
 -**Jessica West**, _Co-Founder, DevEx Institute_
@@ -301,6 +302,18 @@ layout: two-cols-header
 
 </v-clicks>
 
+<!--
+## User Experience (UX)
+[click]- Focus: _prioritizing the end users usability and overall experience; aim to make software intuitive, easy to use, and enjoyable to interact with._
+[click]- Context: _involves user research, wireframes, testing product to optimize user satisfaction._
+[click]- _DevEx focuses on making tools, processes, and environments that devs use efficient and pleasant.
+
+## Developer Productivity
+[click]- Focus: _measured in terms of output, with an emphasis on efficiency and performance._
+[click]- Context: _metrics like "time to release", "number of pull requests", or "deployment frequency"._
+[click]- Differs: _they don't capture the full experience of developers, while DevEx encompasses efficiency, the satisfaction, well-being, and support structure of devs._
+-->
+
 ---
 
 # Distinguishing DevEx from other Concepts
@@ -309,6 +322,13 @@ layout: two-cols-header
 
 - [Focus:]{style="font-weight: 900; background: var(--slidev-theme-accents-red);"} _holistic view encompassing all aspects of the developer journey (usability, efficiency, satisfaction, etc.)_
 - [Unique:]{style="font-weight: 900; background: var(--slidev-theme-accents-red);"} _integrates elements of UX and productivity, but with a broader scope of psychological safety, community, and feedback loops._
+
+<!--
+## Developer Experience (DevEx)
+
+[click]- Focus: _holistic view encompassing all aspects of the developer journey (usability, efficiency, satisfaction, etc.)_
+[click]- Unique: _integrates elements of UX and productivity, but with a broader scope of psychological safety, community, and feedback loops._
+-->
 
 ---
 layout: intro
@@ -359,6 +379,10 @@ class: my-cool-content-on-the-right
 >"New ways of working such as globally distributed development or the integration of self-motivated external developers into software ecosystems will require a better and more comprehensive understanding of developers' feelings, perceptions, motivations and identification with their tasks in their respective project environments."
 
 _REF: F. Fagerholm and J. Münch, "[Developer experience: Concept and definition](https://ieeexplore.ieee.org/document/6225984?arnumber=6225984). 2012."_
+
+<!--
+The first is where it talked about these New ways of working where development was globally distributed and integrating self-motivated external developers into software ecosystems and would require a better and more comprehensive understanding of developers' feelings, perceptions, motivations and identification with their tasks in their respective project environments.
+-->
 
 ---
 layout: image-left
@@ -479,7 +503,7 @@ class: my-cool-content-on-the-right
 ### HP Softbench
 
 <!--
-and was extensively talked about in the June 1990 edition of the HP Journal. 
+and was extensively talked about in the June 1990 edition of the HP Journal.
 -->
 
 ---
@@ -786,7 +810,7 @@ layout: two-cols
 
 - Reduced cognitive load and shift to developer well-being and satisfaction
 
-- Encouragement of experiementation and fast feedback loops
+- Encouragement of experimentation and fast feedback loops
 
 </v-clicks>
 
@@ -895,13 +919,11 @@ layout: two-cols-header
 <!--
 Importance of Onboarding: The first few days and weeks can make or break a developer’s perception of an organization’s DevEx.
 
-[click]
-Effective Strategies:
+[click]Effective Strategies:
 - Comprehensive Onboarding Kits: Include environment setup guides, example projects, and walkthroughs.
 - Mentorship Programs: Pair new hires with experienced developers to accelerate acclimatization.
 
-[click]
-Measurement: Use metrics like “Time to First Commit” or “Time to First Merge” to gauge onboarding success. But first figure out your baseline.
+[click]Measurement: Use metrics like “Time to First Commit” or “Time to First Merge” to gauge onboarding success. But first figure out your baseline.
 -->
 
 ---
@@ -970,9 +992,9 @@ Feedback Mechanisms:
 
 <v-clicks>
 
-- Automate everything
+- Automate everything possible  ([Paige Bailey automation post](https://medium.com/@webpaige/automating-away-the-boring-parts-of-my-job-with-gemini-1-5-pro-long-context-windows-6d5a1d9a6f38))
 
-- Fast feedback loops
+- Fast feedback loops ("Fail Fast")
 
 </v-clicks>
 
@@ -1116,7 +1138,7 @@ You may be in a position where you want to help drive the changes needed to impr
 ![devex-reflects-org-culture](/images/slides/bluesky-devex-culture-post.jpg){style="width: 70%; justify-self: center;"}
 
 
-<!-- 
+<!--
 The level of investment that a company invests in DevEx can be a reflection of a company's values towards its employees, especially its developers. A strong focus on DevEx shows a commitment to employee well-being and efficiency. And prioritizing DevEx helps foster a culture of excellence and innovation. When developers are provided with the right tools, support, and environment, they are more likely to produce high-quality work and push the boundaries of what's possible.
 -->
 
@@ -1244,7 +1266,7 @@ layout: statement
 >### "ruthlessly eliminating barriers (and blockers) that keep your practitioners from being successful"
 
 
-<!-- 
+<!--
 I'll leave you with this, that DevEx is ruthlessly eliminating barriers (and blockers) that keep your practitioners from being successful.
 -->
 
@@ -1269,7 +1291,7 @@ layout: two-cols
 <p><img src="/images/www.png" style="vertical-align: middle; display: inline; margin: 5px; max-height:50px; padding-right:10px">jmeiss.me</p>
 
 
-<!-- 
+<!--
 
 -->
 
@@ -1278,6 +1300,6 @@ layout: end
 ---
 
 
-<!-- 
+<!--
 
 -->

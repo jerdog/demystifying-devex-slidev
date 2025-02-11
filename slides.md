@@ -695,6 +695,10 @@ layout: section
 
 # Key Themes of Developer Experience
 
+<!--
+Let's talk about what the key themes are around a good developer experience
+-->
+
 ---
 layout: default
 ---
@@ -707,6 +711,7 @@ layout: default
 - Provide challenging but meaningful tasks
 
 <!--
+1. ***Developer proficiency & growth***
 Developers are most productive when **tasks align with their expertise and skill level.** Organizations should **focus on skill development, mentorship, and structured work** to reduce cognitive overload. **Providing challenging but meaningful tasks** helps maintain motivation and engagement.
 -->
 
@@ -723,6 +728,7 @@ layout: default
 - Give autonomy over work, tools, decision-making
 
 <!--
+2. ***Work environment & productivity flow***
 **Minimizing interruptions, unnecessary context switching, and distractions** leads to better productivity. **A healthy work environment (both physical and virtual)** reduces burnout and supports long-term effectiveness. Developers perform best when given **autonomy over their work, tools, and decision-making** processes.
 -->
 
@@ -740,6 +746,7 @@ layout: default
 - Encourage psychological safety and supportive team culture
 
 <!--
+3. ***Collaboration & communication***
 **Effective team collaboration** improves efficiency and problem-solving. **Providing developers with clear, accessible, and relevant information** reduces decision fatigue. **Encouraging psychological safety and supportive team culture** enhances engagement and retention.
 -->
 
@@ -758,6 +765,7 @@ layout: default
 - Automation and developer-friendly tooling investment
 
 <!--
+4. ***Code & tooling quality***
 Developers thrive when working with **high-quality, maintainable, and well-documented codebases**. **Tools and APIs should be intuitive, reliable, and well-integrated** into development workflows. **Investing in automation and developer-friendly tooling** reduces friction and improves efficiency.
 -->
 
@@ -777,6 +785,7 @@ layout: default
 - Steadily evolving technical ecosystem with right resources
 
 <!--
+5. ***Process & standardization***
 Striking a balance between **structured processes and developer flexibility** prevents bureaucratic slowdowns. **Standardization should support, not hinder, productivity**—use automation to enforce best practices. The **technical ecosystem should evolve steadily**, ensuring developers have the right resources without overwhelming them with constant change.
 -->
 
@@ -787,7 +796,7 @@ layout: section
 # How does DevEx apply to frontend developers?
 
 <!--
-Frontend development has unique challenges, from rapidly evolving frameworks to balancing performance, accessibility, and design. The key themes of DevEx have an important role to play in ensuring frontend developers can work efficiently, stay engaged, and build high-quality applications.-->
+As an example of applying these themes to a specific area, let's use frontend development which has some interesting and unique challenges. The key themes of DevEx have an important role to play in ensuring frontend developers can work efficiently, stay engaged, and build high-quality applications.-->
 
 ---
 layout: two-cols-header
@@ -822,6 +831,7 @@ layout: two-cols-header
 </v-click>
 
 <!--
+## Developer proficiency & growth
 [click]Why It Matters: Frontend developers need to continuously adapt to evolving frameworks, tools, and best practices to build high-quality, performant user interfaces.
 [click]Strategy: Encourage continuous learning, mentorship, and clear career progression to foster professional growth and specialization.
 -->
@@ -859,6 +869,7 @@ layout: two-cols-header
 </v-click>
 
 <!--
+## Work environment & productivity flow
 [click]Why It Matters: A seamless development workflow minimizes friction, accelerates iteration cycles, and allows developers to focus on solving creative UI challenges rather than fighting slow tools.
 [click]Strategy: Provide fast, pre-configured development environments, reusable UI components, and real-time performance monitoring to streamline frontend workflows.
 -->
@@ -896,6 +907,7 @@ layout: two-cols-header
 </v-click>
 
 <!--
+## Collaboration & communication
 [click]Why It Matters: Frontend teams work closely with designers, backend engineers, and product teams, making clear communication and alignment critical to avoid inefficiencies and rework.
 [click]Strategy: Foster strong design-dev collaboration, establish clear API specs, and document shared knowledge to ensure smooth cross-team workflows.
 -->
@@ -933,6 +945,7 @@ layout: two-cols-header
 </v-click>
 
 <!--
+## Code & tooling quality
 [click]Why It Matters: High-quality tooling and well-structured codebases reduce technical debt, improve maintainability, and enhance the performance, accessibility, and security of web applications.
 [click]Strategy: Standardize tooling, enforce automated testing, and conduct regular audits to maintain consistency, reliability, and compliance with best practices.
 -->
@@ -970,6 +983,7 @@ layout: two-cols-header
 </v-click>
 
 <!--
+## Process & standardization
 [click]Why It Matters: Inconsistent development processes create unnecessary friction, slow down teams, and make it difficult to scale projects efficiently.
 [click]Strategy: Define structured workflows for code reviews, versioning, and onboarding to ensure predictability, efficiency, and reduced cognitive load for developers.
 -->

@@ -227,7 +227,6 @@ layout: image
 image: "/images/slides/good-devex-overall-satisfaction.jpg"
 ---
 
-
 <!--
 It's their overall satisfaction and efficiency while working on software projects. It's the tools, the processes, and the environments that shape their interactions with code, infrastructure, and each other. A positive DevEx is crucial for enhancing productivity as it directly influences how quickly and effectively developers can build, test, and deploy software.
 -->

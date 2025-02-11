@@ -690,6 +690,12 @@ I go through all of that to illustrate how the overall Developer Experience with
 -->
 
 ---
+layout: section
+---
+
+# Key Themes of Developer Experience
+
+---
 layout: default
 ---
 

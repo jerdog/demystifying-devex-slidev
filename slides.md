@@ -277,9 +277,34 @@ layout: two-cols-header
 
 - [Context:]{style="font-weight: 900; background: var(--slidev-theme-accents-red);"} _metrics like "time to release", "number of pull requests", or "deployment frequency"._
 
-- [Differs from DevEx:]{style="font-weight: 900; background: var(--slidev-theme-accents-red);"} _they don't capture the full experience of developers, while DevEx encompasses efficiency, the satisfaction, well-being, and support structure of devs._
+- [Differs from DevEx:]{style="font-weight: 900; background: var(--slidev-theme-accents-red);"} _doesn't capture the full experience of developers._
 
 </v-clicks>
+
+::right::
+
+<!--
+## Developer Productivity
+[click]Focus: measured in terms of output, with an emphasis on efficiency and performance.
+[click]Context: metrics like "time to release", "number of pull requests", or "deployment frequency".
+[click]Differs: doesn't capture the full experience of developers.
+-->
+
+---
+layout: two-cols-header
+---
+
+# Developer Productivity != Developer Experience
+
+::left::
+
+## Developer Productivity
+
+- [Focus:]{style="font-weight: 900; background: var(--slidev-theme-accents-red);"} _measured in terms of output, with an emphasis on efficiency and performance._
+
+- [Context:]{style="font-weight: 900; background: var(--slidev-theme-accents-red);"} _metrics like "time to release", "number of pull requests", or "deployment frequency"._
+
+- [Differs from DevEx:]{style="font-weight: 900; background: var(--slidev-theme-accents-red);"} _doesn't capture the full experience of developers._
 
 ::right::
 
@@ -293,11 +318,6 @@ layout: two-cols-header
 </v-clicks>
 
 <!--
-## Developer Productivity
-[click]Focus: measured in terms of output, with an emphasis on efficiency and performance.
-[click]Context: metrics like "time to release", "number of pull requests", or "deployment frequency".
-[click]Differs: they don't capture the full experience of developers, while DevEx encompasses efficiency, the satisfaction, well-being, and support structure of devs.
-
 ## Developer Experience (DevEx)
 [click]Focus: holistic view encompassing all aspects of the developer journey (usability, efficiency, satisfaction, etc.)
 [click]Unique: integrates elements of UX and productivity, but with a broader scope of psychological safety, community, and feedback loops.

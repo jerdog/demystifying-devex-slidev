@@ -530,7 +530,7 @@ class: my-cool-content-on-the-right
 ### 1995: Borland Delphi
 
 <!--
-Borland Delphi was released in 1995 and is still around (Embarcadero Delphi v12)
+Borland Delphi was released in 1995 and is still around (Embarcadero Delphi v12.2 is now out)
 -->
 
 ---
@@ -553,7 +553,7 @@ class: my-cool-content-on-the-right
 </v-clicks>
 
 <!--
-With the launch of the World Wide Web, and then its explosion of growth, the IDEs started becoming more graphical and had a more modern look and feel. Who remembers the first HTML WYSIWYG editor? [click]SGI's WebMagic was released on January 25, 1995 built in less than 90 days. [click]FrontPage (https://softpanorama.org/Office/Frontpage/history.shtml) was soon to follow in October 1995 after Microsoft acquired it from Vermeer.
+With the launch of the World Wide Web, and then its explosion of growth, the IDEs started becoming more graphical and had a more modern look and feel. Who remembers the first HTML WYSIWYG editor? [click]SGI's WebMagic was released on January 25, 1995 built in less than 90 days. [click]FrontPage was soon to follow in October 1995 after Microsoft acquired it from Vermeer.
 -->
 
 ---
@@ -582,7 +582,8 @@ class: my-cool-content-on-the-right
 </v-clicks>
 
 <!--
-[click]Macromedia's Dreamweaver came out in 1997 (after Macromedia acquisition of Backstage from iBand in 1996) Dreamweaver completely changed the game in many respects, as Macromedia had a history of their products getting community-sourced tools, plugins, scripts, etc. [click]Microsoft released their first version of Visual Studio in 1997, and then [click]Microsoft FrontPage 2000 saw the first inclusion of plugins and integrations in early 1999 to make web management easier (FrontPage Server Extensions). [click]NetBeans was released in 2000 for Java, with [click]IntelliJ and [click]Eclipse following in 2001 and then along with [click]Micorosoft Visual Studio .NET in 2002 with a more modern and feature-rich IDE for .NET development. We started seeing IDEs which offered enhanced functionality and more sophisticated features like intelligent code completion, refactoring tools, and improved version control integration. We saw a noticeable increase in support for multiple languages and frameworks, making these IDEs more versatile.
+[click]Macromedia's Dreamweaver came out in 1997 (after Macromedia acquisition of Backstage from iBand in 1996) Dreamweaver completely changed the game in many respects, as Macromedia had a history of their products getting community-sourced tools, plugins, scripts, etc. [click]Microsoft released their first version of Visual Studio in 1997, and then [click]Microsoft FrontPage 2000 saw the first inclusion of plugins and integrations in early 1999 to make web management easier (FrontPage Server Extensions). [click]NetBeans was released in 2000 for Java, with [click]IntelliJ and [click]Eclipse following in 2001 and then along with [click]Microsoft Visual Studio .NET in 2002 with a more modern and feature-rich IDE for .NET development.
+We started seeing IDEs which offered enhanced functionality and more sophisticated features like intelligent code completion, refactoring tools, and improved version control integration. We saw a noticeable increase in support for multiple languages and frameworks, making these IDEs more versatile.
 -->
 
 ---
@@ -609,6 +610,7 @@ class: my-cool-content-on-the-right
 </v-clicks>
 
 <!--
+### Late 2000s to now
 [click]Late 2000s brought about more lightweight IDEs, like Sublime Text and later [click]Atom and [click]Visual Studio Code (VSCode) emerged, focusing on speed, user-friendly interfaces, and extensive plugin ecosystems. They catered to a broader range of developers by being less resource-intensive and more customizable. Even saw integrations with popular Ops tools as well.
 -->
 
@@ -646,8 +648,6 @@ Then, we have seen the rise of the cloud and the arrival of cloud-based IDEs: Th
 
 ## A result of DevEx
 
-### Things we never knew we needed...
-
 From this:
 > "...the use of an IDE was not well received by developers since it would fence in their creativity."
 
@@ -676,7 +676,7 @@ To this:
 
 
 <!--
-We went from this sentiment about IDEs...
+To a list of things we didn't even know we needed until we had them. And now, we can't live without them. You likely wouldn't even give an IDE a second look if it didn't have at least most of these features. And this is just the IDE. Anyone have some evolutions in other areas of the developer experience to mention?
 -->
 
 ---
@@ -686,14 +686,14 @@ backgroundSize: contain
 ---
 
 <!--
-I go through all of that to illustrate how the overall Developer Experience with software development has evolved over time, leading to where we sit with IDEs now. Things we didn't know we would want back in the 1960s are now commonplace and the expeected norm now in the 2020s.
+I go through all of that to illustrate how the overall Developer Experience with software development has evolved over time, leading to where we sit with IDEs now.
 -->
 
 ---
 layout: default
 ---
 
-## Key Themes of Developer Experience
+# Key Themes of Developer Experience
 
 1. ***Developer proficiency & growth***
 - Align tasks with expertise and skill level
@@ -708,7 +708,7 @@ Developers are most productive when **tasks align with their expertise and skill
 layout: default
 ---
 
-## Key Themes of Developer Experience
+# Key Themes of Developer Experience
 
 1. Developer proficiency & growth
 2. ***Work environment & productivity flow***
@@ -724,7 +724,7 @@ layout: default
 layout: default
 ---
 
-## Key Themes of Developer Experience
+# Key Themes of Developer Experience
 
 1. Developer proficiency & growth
 2. Work environment & productivity flow
@@ -741,7 +741,7 @@ layout: default
 layout: default
 ---
 
-## Key Themes of Developer Experience
+# Key Themes of Developer Experience
 
 1. Developer proficiency & growth
 2. Work environment & productivity flow
@@ -759,7 +759,7 @@ Developers thrive when working with **high-quality, maintainable, and well-docum
 layout: default
 ---
 
-## Key Themes of Developer Experience
+# Key Themes of Developer Experience
 
 1. Developer proficiency & growth
 2. Work environment & productivity flow

@@ -99,10 +99,10 @@ class: my-cool-content-on-the-left
 ## Common examples
 
 - Poorly documented features (or bugs)
-- Missing OpenAPI spec (or event APIs)
+- Missing OpenAPI spec (or even APIs)
 
 <!--
-- Missing OpenAPI spec (or event APIs)
+- Missing OpenAPI spec (or even APIs)
 
 We’ve all worked with those companies that say they have a developer platform, but are missing documentation for their APIs, or even worse, no APIs at all.
 -->
@@ -169,10 +169,7 @@ class: my-cool-content-on-the-left
 
 And then there is Ramiro's story that I call "CI as Magic 8-Ball"
 
-I call this one:
-
-[click]- “CI as Magic 8-Ball”
-What about epicly bad websites that would put ebaumsworld to shame?
+***What about epicly bad websites that would put ebaumsworld to shame?***
 -->
 
 ---
@@ -211,6 +208,29 @@ Heroku was long considered the gold standard for developer experience with a sim
 -->
 
 ---
+layout: intro
+transition: fade | fade
+title: "About Me"
+---
+
+<div class="multiCol">
+    <div class="col">
+        <h2>Jeremy Meiss</h2>
+        <p style="font-weight: 900; font-size: 1.25rem;">Director, DevEx & DevRel</p>
+        <p style="font-size: 1rem;"><em>OneStream Software</em></p>
+        <!-- <p style="font-size: 0.8em;"><a href="https://devex.institute" target="_blank">https://DevEx.Institute</a></p> -->
+        <p style="font-size: 1rem;">DevOpsDays Kansas City Organizer</p>
+    </div>
+    <div class="col">
+      <img src="/images/profile-pic.jpg" width="60%" alt="Jeremy Meiss" />
+    </div>
+</div>
+
+<!--
+
+-->
+
+---
 
 # A working definition of DevEx
 
@@ -235,33 +255,23 @@ It's their overall satisfaction and efficiency while working on software project
 layout: section
 ---
 
-# Distinguishing DevEx from other Concepts
+# Developer Productivity != Developer Experience
 
-
+<!--
+Over the past few years, there's been a lot of talk about Developer Productivity. But it's important to understand that Developer Productivity and Developer Experience are not the same thing, even though a lot of companies selling you something would like you to think that they are, or that they're interchangeable as a term. They are not.
+-->
 
 ---
 layout: two-cols-header
 ---
 
-# Distinguishing DevEx from other Concepts
+# Developer Productivity != Developer Experience
 
 ::left::
 
-## User Experience (UX)
-
-<v-clicks>
-
-- [Focus:]{style="font-weight: 900; background: var(--slidev-theme-accents-red);"} _prioritizing the end users usability and overall experience; aim to make software intuitive, easy to use, and enjoyable to interact with._
-- [Context:]{style="font-weight: 900; background: var(--slidev-theme-accents-red);"} _involves user research, wireframes, testing product to optimize user satisfaction._
-- [Differs from DevEx:]{style="font-weight: 900; background: var(--slidev-theme-accents-red);"} _DevEx focuses on making tools, processes, and environments that devs use efficient and pleasant.
-
-</v-clicks>
-
-::right::
-
-<v-clicks>
-
 ## Developer Productivity
+
+<v-clicks>
 
 - [Focus:]{style="font-weight: 900; background: var(--slidev-theme-accents-red);"} _measured in terms of output, with an emphasis on efficiency and performance._
 
@@ -271,21 +281,7 @@ layout: two-cols-header
 
 </v-clicks>
 
-<!--
-## User Experience (UX)
-[click]Focus: prioritizing the end users usability and overall experience; aim to make software intuitive, easy to use, and enjoyable to interact with.
-[click]Context: involves user research, wireframes, testing product to optimize user satisfaction.
-[click]Differs: _DevEx focuses on making tools, processes, and environments that devs use efficient and pleasant.
-
-## Developer Productivity
-[click]Focus: measured in terms of output, with an emphasis on efficiency and performance.
-[click]Context: metrics like "time to release", "number of pull requests", or "deployment frequency".
-[click]Differs: they don't capture the full experience of developers, while DevEx encompasses efficiency, the satisfaction, well-being, and support structure of devs.
--->
-
----
-
-# Distinguishing DevEx from other Concepts
+::right::
 
 ## Developer Experience (DevEx)
 
@@ -297,32 +293,14 @@ layout: two-cols-header
 </v-clicks>
 
 <!--
+## Developer Productivity
+[click]Focus: measured in terms of output, with an emphasis on efficiency and performance.
+[click]Context: metrics like "time to release", "number of pull requests", or "deployment frequency".
+[click]Differs: they don't capture the full experience of developers, while DevEx encompasses efficiency, the satisfaction, well-being, and support structure of devs.
+
 ## Developer Experience (DevEx)
 [click]Focus: holistic view encompassing all aspects of the developer journey (usability, efficiency, satisfaction, etc.)
 [click]Unique: integrates elements of UX and productivity, but with a broader scope of psychological safety, community, and feedback loops.
--->
-
----
-layout: intro
-transition: fade | fade
-title: "About Me"
----
-
-<div class="multiCol">
-    <div class="col">
-        <h2>Jeremy Meiss</h2>
-        <p style="font-weight: 900; font-size: 1.25rem;">Director, DevEx & DevRel</p>
-        <p style="font-size: 1rem;"><em>OneStream Software</em></p>
-        <!-- <p style="font-size: 0.8em;"><a href="https://devex.institute" target="_blank">https://DevEx.Institute</a></p> -->
-        <p style="font-size: 1rem;">DevOpsDays Kansas City Organizer</p>
-    </div>
-    <div class="col">
-      <img src="/images/profile-pic.jpg" width="60%" alt="Jeremy Meiss" />
-    </div>
-</div>
-
-<!--
-
 -->
 
 ---
